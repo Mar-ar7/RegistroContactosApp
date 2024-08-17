@@ -12,7 +12,7 @@ namespace RegistroContactosApp
 
             private void ButtonAgregar_Click(object sender, EventArgs e)
             {
-                // Verifica que todos los campos estén llenos
+                // Verifica que todos los campos estén llenoS
                 if (string.IsNullOrWhiteSpace(TextBoxNombre.Text) ||
                     string.IsNullOrWhiteSpace(TextBoxTelefono.Text) ||
                     string.IsNullOrWhiteSpace(TextBoxEmail.Text))
